@@ -4,7 +4,6 @@ base_url = "http://localhost:3000"
 about = "At Plurigrid we aim to build a neutral energy coordination layer that can ultimately scale to _all_ communities ✨☄️"
 
 [extra]
-copyright = "Plurigrid"
 github = "https://github.com/plurigrid"
 twitter = "https://twitter.com/plurigrid"
 
