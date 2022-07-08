@@ -1,11 +1,11 @@
-title = "Your Site Name"
+title = "Plurigrid"
 # logo = "URL to logo"
 base_url = "http://localhost:3000"
-about = "This site is generated with Bartholomew, the WebAssembly micro-CMS. And this message is in site.toml."
+about = "At Plurigrid we aim to build a neutral energy coordination layer that can ultimately scale to _all_ communities ✨☄️"
 
 [extra]
-copyright = "The Site Authors"
-github = "https://github.com/fermyon"
-twitter = "https://twitter.com/fermyontech"
+copyright = "Plurigrid"
+github = "https://github.com/plurigrid"
+twitter = "https://twitter.com/plurigrid"
 
 date_style = "%B %e, %Y"
