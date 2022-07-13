@@ -11,6 +11,9 @@
   color: black;
   text-decoration: none;
 }
+.menu-item:last-of-type {
+  border-right: none !important;
+}
 .menu-item:hover {
   background-color: #eee;
   cursor: pointer;
@@ -44,4 +47,11 @@
 }
 .intro {
   font-size: x-large;
+}
+.socials {
+  margin-left: 10px;
+  width: calc(353px / 63 * 40);
+  height: calc(63px / 63 * 40);
+  /* margin-top: 20px; */
+  filter: invert(1);
 }

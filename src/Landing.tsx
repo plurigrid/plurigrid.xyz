@@ -1,6 +1,7 @@
 import * as React from "react";
 import "./App.css";
 import { Header } from "./Header";
+import Socials from "./Socials";
 
 function Landing() {
   return (
@@ -12,9 +13,21 @@ function Landing() {
           <h1>Plurigrid</h1>
           Plurigrid is building a powerful tool that allows you to own a vertex of an energy grid that guarantees a stable, resilient clean energy supply to your home or business.
 
-          <br/>
-          <br/>
-          <br/>
+          <div style={{
+            display: "grid",
+            flexDirection: "row",
+            justifyItems: "center",
+            alignItems: "center",
+            gridTemplateColumns: '1fr 1fr 1fr',
+            maxWidth: 230,
+            margin: "0 auto",
+            marginTop: 30,
+          }}>
+            <Socials />
+          </div>
+
+          <br />
+          <br />
           <button className="btn btn-primary" onClick={() => {
             window.location.href = "/hatchers";
           }}>
