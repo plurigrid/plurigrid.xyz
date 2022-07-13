@@ -20,6 +20,17 @@ function Matrix() {
           <li>going to a large-scale IRL deployment in 6 months preceded by several IRL deployments based on simulations thus far (example clarification: an IRL deployment can be a solar field or other Distributed Energy Resource) operator who agrees to switch out their existing Industrial Control System to the one Plurigrid offers w/ its models for coordination in the event of a grid disruption subject to the standard</li>
           <li>the simulations exist to try out various scenarios that can occur</li>
 
+
+
+        </ul>
+        <h1>Tokenomics</h1>
+        TODO: token distribution graph
+        TODO: token vesting graph
+        <ul>
+          <li>Simulation token for self-bootstrapping network of value around running simulations of the grid</li>
+          <li>Airdrop to these organizations</li>
+          <li>$MATRIX tokens allows participants to bid on the grid simulation mints</li>
+          <li>Holding a simulation mint makes you eligible for future $MATRIX token airdrops</li>
         </ul>
       </div>
     </div>
