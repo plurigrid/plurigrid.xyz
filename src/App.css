@@ -18,3 +18,17 @@
   padding: 50px;
   box-sizing: border-box;
 }
+.logo {
+  width: 150px;
+  height: 150px;
+}
+.lead-explainer{
+
+  padding-inline-start: 8px;
+  padding-block-start: 22px;
+}
+
+.lead-explainer h1 {
+  margin-block-start: 0;
+  margin-block-end: 0.67em;
+}
