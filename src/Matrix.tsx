@@ -1,9 +1,13 @@
 import React from "react";
+import { Header } from "./Header";
 
 function Matrix() {
   return (
     <div>
-      $Matrix!! Buy!!
+      <Header />
+      <div>
+        $MATRIX
+      </div>
     </div>
   )
 }

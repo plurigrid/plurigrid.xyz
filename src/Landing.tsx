@@ -1,21 +1,13 @@
 import * as React from "react";
-import { Link } from "react-router-dom";
 import "./App.css";
+import { Header } from "./Header";
 
 function Landing() {
   return (
     <div>
-      <header>
-        <div className="menu">
-          <Link to="/" className="menu-item"><div>Plurigrid</div></Link>
-          <Link to="/matrix" className="menu-item"><div>$MATRIX</div></Link>
-          <a href="#" className="menu-item"><div>Hatchers</div></a>
-          <a href="#" className="menu-item"><div>GitHub</div></a>
-          <a href="#" className="menu-item"><div>Signal</div></a>
-        </div>
-      </header>
+      <Header />
       <div className="lead">
-        <img src="/public/logo.png" className="logo"  height={300}/>
+        <img src="/public/logo.png" className="logo" height={300} />
         <div className="lead-explainer">
           <h1>Plurigrid</h1>
           Plurigrid is building a powerful tool that allows you to own a vertex of an energy grid that guarantees a stable, resilient clean energy supply to your home or business.
@@ -28,3 +20,4 @@ function Landing() {
 }
 
 export default Landing;
+
