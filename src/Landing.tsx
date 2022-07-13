@@ -1,9 +1,12 @@
 import * as React from "react";
+import { useNavigate } from "react-router";
 import "./App.css";
 import { Header } from "./Header";
 import Socials from "./Socials";
 
 function Landing() {
+  let navigate = useNavigate();
+
   return (
     <div>
       <Header />
@@ -18,7 +21,7 @@ function Landing() {
           </div>
 
           <button className="btn btn-primary lead-cta" onClick={() => {
-            window.location.href = "/hatchers";
+            navigate("/hatchers")
           }}>
             Enter</button>
         </div>
