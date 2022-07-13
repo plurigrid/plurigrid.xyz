@@ -32,6 +32,13 @@ function Matrix() {
           <li>$MATRIX tokens allows participants to bid on the grid simulation mints</li>
           <li>Holding a simulation mint makes you eligible for future $MATRIX token airdrops</li>
         </ul>
+
+        <br/>
+        <br/>
+        <br/>
+        <div style={{textAlign: "center"}}>
+          <button style={{fontSize: 21.76}}>Claim airdrop</button>
+        </div>
       </div>
     </div>
   )
