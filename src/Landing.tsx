@@ -7,7 +7,7 @@ function Landing() {
     <div>
       <Header />
       <div className="lead">
-        <img src="/public/logo.png" className="logo" height={300} />
+        <img src="/logo.png" className="logo" height={300} />
         <div className="lead-explainer">
           <h1>Plurigrid</h1>
           Plurigrid is building a powerful tool that allows you to own a vertex of an energy grid that guarantees a stable, resilient clean energy supply to your home or business.
