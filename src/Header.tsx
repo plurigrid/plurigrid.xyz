@@ -7,7 +7,8 @@ export function Header() {
       <div className="menu">
         <Link to="/" className="menu-item"><div>Plurigrid</div></Link>
         <Link to="/matrix" className="menu-item"><div>$MATRIX</div></Link>
-        <a href="#" className="menu-item"><div>Hatchers</div></a>
+        <Link to="/hatchers" className="menu-item"><div>Hatchers</div></Link>
+        <Link to="/simulation" className="menu-item"><div>Simulation</div></Link>
         <a href="#" className="menu-item"><div>GitHub</div></a>
         <a href="#" className="menu-item"><div>Signal</div></a>
       </div>
