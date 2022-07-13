@@ -13,16 +13,7 @@ function Landing() {
           <h1>Plurigrid</h1>
           Plurigrid is building a powerful tool that allows you to own a vertex of an energy grid that guarantees a stable, resilient clean energy supply to your home or business.
 
-          <div style={{
-            display: "grid",
-            flexDirection: "row",
-            justifyItems: "center",
-            alignItems: "center",
-            gridTemplateColumns: '1fr 1fr 1fr',
-            maxWidth: 230,
-            margin: "0 auto",
-            marginTop: 30,
-          }}>
+          <div  className="socials-container">
             <Socials />
           </div>
 
