@@ -67,6 +67,13 @@
   }
 }
 
+.socials-link {
+  display: flex
+}
+
+.lead-cta {
+  margin-top: 40px
+}
 
 .whitepaper-like {
   padding: 50px;

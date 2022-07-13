@@ -17,9 +17,7 @@ function Landing() {
             <Socials />
           </div>
 
-          <br />
-          <br />
-          <button className="btn btn-primary" onClick={() => {
+          <button className="btn btn-primary lead-cta" onClick={() => {
             window.location.href = "/hatchers";
           }}>
             Enter</button>
