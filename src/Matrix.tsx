@@ -40,7 +40,7 @@ function Matrix() {
         <br />
         <br />
         <div style={{ textAlign: "center" }}>
-          <CTAButton title="Claim airdrop" />
+          <CTAButton title="Claim airdrop" onClick={() => {}} />
         </div>
       </div>
     </div>
