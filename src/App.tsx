@@ -5,20 +5,25 @@ import HatchersBegin from "./HatchersBegin";
 import Landing from "./Landing";
 import Matrix from "./Matrix";
 import Simulation from "./Simulation";
+import { GrazProvider, configureDefaultChain, mainnetChains } from "graz";
+
+configureDefaultChain(mainnetChains.cosmos);
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Landing />} />
-        <Route path="/matrix" element={<Matrix />} />
-        <Route path="/hatchers" >
-          <Route index element={<Hatchers />} />
-          <Route path="/hatchers/begin" element={<HatchersBegin />} />
-        </Route>
-        <Route path="/simulation" element={<Simulation />} />
-      </Routes>
-    </BrowserRouter>
+    <GrazProvider>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Landing />} />
+          <Route path="/matrix" element={<Matrix />} />
+          <Route path="/hatchers" >
+            <Route index element={<Hatchers />} />
+            <Route path="/hatchers/begin" element={<HatchersBegin />} />
+          </Route>
+          <Route path="/simulation" element={<Simulation />} />
+        </Routes>
+      </BrowserRouter>
+    </GrazProvider>
   )
 }
 
