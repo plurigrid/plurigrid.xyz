@@ -9,10 +9,10 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route  path="/" element={<Landing />}/>
-        <Route  path="/matrix" element={<Matrix />}/>
-        <Route  path="/hatchers" element={<Hatchers />}/>
-        <Route  path="/simulation" element={<Simulation />}/>
+        <Route path="/" element={<Landing />}/>
+        <Route path="/matrix" element={<Matrix />}/>
+        <Route path="/hatchers" element={<Hatchers />}/>
+        <Route path="/simulation" element={<Simulation />}/>
       </Routes>
     </BrowserRouter>
   )
