@@ -18,6 +18,9 @@
   background-color: #eee;
   cursor: pointer;
 }
+.menu-item.active {
+  font-weight: bold;
+}
 
 .lead {
   height: calc(100vh - 40px);
