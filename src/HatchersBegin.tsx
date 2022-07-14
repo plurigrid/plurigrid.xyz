@@ -9,6 +9,7 @@ function Hatchers() {
   const { connect, status } = useConnect();
   const { data: account, isConnected } = useAccount();
   const { disconnect } = useDisconnect();
+  let navigate = useNavigate();
 
   function handleConnect() {
     return isConnected ? disconnect() : connect();
@@ -21,7 +22,12 @@ function Hatchers() {
         <h1>Connect wallet</h1>
         <p className="intro">Connect your wallet to begin simulation</p>
         <p>Status: {account ? `Connected to ${account.bech32Address}` : status}</p>
-        <CTAButton title={isConnected ? "Disconnect" : "Connect"} onClick={handleConnect}/>
+        {!isConnected ?
+          <CTAButton title={isConnected ? "Disconnect" : "Connect"} onClick={handleConnect} /> :
+          <CTAButton title="Continue" onClick={() => {
+            navigate("/hatchers/level/0/0");
+          }} />
+        }
       </div>
     </div>
   )
