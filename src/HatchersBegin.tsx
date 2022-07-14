@@ -20,12 +20,8 @@ function Hatchers() {
       <div className="whitepaper-like">
         <h1>Connect wallet</h1>
         <p className="intro">Connect your wallet to begin simulation</p>
-        {account ? `Connected to ${account.bech32Address}` : status}
-        <button onClick={handleConnect}>{isConnected ? "Disconnect" : "Connect"}</button>
-
-        {/* <CTAButton title="Connect Keplr wallet" onClick={() => {
-          // navigate("/hatchers/begin")
-        }} /> */}
+        <p>Status: {account ? `Connected to ${account.bech32Address}` : status}</p>
+        <CTAButton title={isConnected ? "Disconnect" : "Connect"} onClick={handleConnect}/>
       </div>
     </div>
   )
