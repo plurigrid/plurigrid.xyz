@@ -1,0 +1,10 @@
+diff --git a/node_modules/tiny-secp256k1/rfc6979.js b/node_modules/tiny-secp256k1/rfc6979.js
+index 3d191a5..380bbc1 100644
+--- a/node_modules/tiny-secp256k1/rfc6979.js
++++ b/node_modules/tiny-secp256k1/rfc6979.js
+@@ -1,4 +1,5 @@
+ const createHmac = require('create-hmac')
++window.Buffer = require('buffer').Buffer;
+ 
+ const ONE1 = Buffer.alloc(1, 1)
+ const ZERO1 = Buffer.alloc(1, 0)
