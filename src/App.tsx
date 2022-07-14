@@ -8,7 +8,8 @@ import Simulation from "./Simulation";
 import { GrazProvider, configureDefaultChain, mainnetChains } from "graz";
 import Level from "./Level";
 
-configureDefaultChain(mainnetChains.cosmos);
+const url = "https://rpc.constantine-1.archway.tech/"
+configureDefaultChain({...mainnetChains.juno, rpc: url, rest: url });
 
 function App() {
   return (
