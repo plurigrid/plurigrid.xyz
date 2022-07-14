@@ -1,4 +1,5 @@
 import React from "react";
+import { CTAButton } from "./CTAButton";
 import { Header } from "./Header";
 
 function Matrix() {
@@ -39,7 +40,7 @@ function Matrix() {
         <br />
         <br />
         <div style={{ textAlign: "center" }}>
-          <button style={{ fontSize: 21.76 }}>Claim airdrop</button>
+          <CTAButton title="Claim airdrop" />
         </div>
       </div>
     </div>
