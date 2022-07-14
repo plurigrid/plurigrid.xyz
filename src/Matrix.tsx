@@ -24,8 +24,10 @@ function Matrix() {
 
         </ul>
         <h1>Tokenomics</h1>
-        TODO: token distribution graph
-        TODO: token vesting graph
+        <ul>
+          <li>TODO: token distribution graph</li>
+          <li>TODO: token vesting graph</li>
+        </ul>
         <ul>
           <li>Simulation token for self-bootstrapping network of value around running simulations of the grid</li>
           <li>Airdrop to these organizations</li>
@@ -33,11 +35,11 @@ function Matrix() {
           <li>Holding a simulation mint makes you eligible for future $MATRIX token airdrops</li>
         </ul>
 
-        <br/>
-        <br/>
-        <br/>
-        <div style={{textAlign: "center"}}>
-          <button style={{fontSize: 21.76}}>Claim airdrop</button>
+        <br />
+        <br />
+        <br />
+        <div style={{ textAlign: "center" }}>
+          <button style={{ fontSize: 21.76 }}>Claim airdrop</button>
         </div>
       </div>
     </div>
