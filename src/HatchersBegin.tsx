@@ -10,10 +10,10 @@ function Hatchers() {
     <div>
       <Header />
       <div className="whitepaper-like">
-        <h1>Hatchers simulation</h1>
-        <p className="intro">Run a simulation and get your own Hatchers NFT</p>
-        <CTAButton title="Begin simulation" onClick={() => {
-            navigate("/hatchers/begin")
+        <h1>Connect wallet</h1>
+        <p className="intro">Connect your wallet to begin simulation</p>
+        <CTAButton title="Connect Keplr wallet" onClick={() => {
+          // navigate("/hatchers/begin")
         }} />
       </div>
     </div>
