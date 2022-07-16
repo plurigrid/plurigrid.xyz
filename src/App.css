@@ -23,7 +23,7 @@
 }
 
 .lead {
-  height: calc(100vh - 40px);
+  min-height: calc(100vh - 40px);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -90,6 +90,17 @@
   height: calc(63px / 63 * 40);
   /* margin-top: 20px; */
   filter: invert(1);
+}
+
+.inviter {
+  position: absolute;
+  bottom: 50px;
+  display: flex;
+  width: calc(100% - 100px);
+  flex: 1;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .vision-container {
