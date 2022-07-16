@@ -103,6 +103,12 @@
   justify-content: center;
 }
 
+@media screen and (max-height: 700px) {
+  .inviter {
+    display: none;
+  }
+}
+
 .vision-container {
   display: flex;
   flex-direction: column;
