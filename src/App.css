@@ -91,3 +91,26 @@
   /* margin-top: 20px; */
   filter: invert(1);
 }
+
+.vision-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.vision-item {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.vision-item-explainer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+}
+
+.vision-item-title {
+  font-weight: bold;
+}
