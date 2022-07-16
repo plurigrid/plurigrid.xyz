@@ -38,6 +38,12 @@ function Landing() {
           <li><b>value alignment</b> - not violating ethical standards of microgrid users while still coordinating in the grid</li>
           <li><b>resilience</b> - in an event of a transmission failure - climate, war, political upheaval - the grid of grids needs to rapidly reconfigure itself or risk an outage</li>
           <li><b>fraud prevention</b> - shift the enforcement of agreed upon energy distribution rules from human intermediaries / operators to math and code under certain well-understood corruptibility barriers</li>
+
+
+<img src="noun-capital-2842004.svg" width={80}/>
+<img src="noun-moral-901639.svg" width={80}/>
+<img src="noun-domino-effect-4450396.svg" width={80}/>
+<img src="noun-stealing-money-2060045.svg" width={80}/>
         </ul>
       </div>
     </div>
