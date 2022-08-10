@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "buffer": "^6.0.3",
-    "graz": "^0.0.8",
+    "graz": "^0.0.14",
     "patch-package": "^6.4.7",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
