@@ -764,6 +764,11 @@ ansi-styles@^3.2.1:
   dependencies:
     color-convert "^1.9.0"
 
+arg@^5:
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/arg/-/arg-5.0.2.tgz#c81433cc427c92c4dcf4865142dbca6f15acd59c"
+  integrity sha512-PYjyFOLKQ9y57JvQ6QLo8dAgNqswh8M1RMJYdQduT6xbWSgK36P/Z/v+p888pM69jMMfS8Xd8F6I1kQ/I9HUGg==
+
 axios@0.21.1:
   version "0.21.1"
   resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.1.tgz#22563481962f4d6bde9a76d516ef0e5d3c09b2b8"
@@ -970,6 +975,19 @@ cosmjs-types@^0.4.0:
   dependencies:
     long "^4.0.0"
     protobufjs "~6.11.2"
+
+cosmos-directory-client@0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/cosmos-directory-client/-/cosmos-directory-client-0.0.6.tgz#056893f0525a97213de345f479c9e70b84fafe18"
+  integrity sha512-WIdaQ8uW1vIbYvNnAVunkC6yxTrneJC7VQ5UUQ0kuw8b0C0A39KTIpoQHCfc8tV7o9vF4niwRhdXEdfAgQEsQQ==
+  dependencies:
+    cosmos-directory-types "0.0.6"
+    node-fetch-native latest
+
+cosmos-directory-types@0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/cosmos-directory-types/-/cosmos-directory-types-0.0.6.tgz#fd5253d21959811c6d6dc642d6cdd28e37461ab4"
+  integrity sha512-9qlQ3kTNTHvhYglTXSnllGqKhrtGB08Weatw56ZqV5OqcmjuZdlY9iMtD00odgQLTEpTSQQL3gFGuqTkGdIDPA==
 
 create-hash@^1.1.0, create-hash@^1.1.2, create-hash@^1.2.0:
   version "1.2.0"
@@ -1300,10 +1318,10 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.6:
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.10.tgz#147d3a006da4ca3ce14728c7aefc287c367d7a6c"
   integrity sha512-9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA==
 
-graz@^0.0.14:
-  version "0.0.14"
-  resolved "https://registry.yarnpkg.com/graz/-/graz-0.0.14.tgz#21553d91b54c5ffa5bf9cc70a2f5c3c6ba374976"
-  integrity sha512-uwXFj2hEDppM2W0xA6UrdVvT+0aGNo8um6LZw1EdPOKE6m5G88GrSqPaqKiEKghufkS1pvYxix+8XUyJDLECXg==
+graz@^0.0.16:
+  version "0.0.16"
+  resolved "https://registry.yarnpkg.com/graz/-/graz-0.0.16.tgz#0f027be730ede41a23449b17bb0ee9174f2eefac"
+  integrity sha512-SqW54bdj2460MyhRZhrRSRtOJsdVpDG79/hxq0gaBZfYxJSxBZKf1S9DLg9X2Af3LiM3pLTmx9AdePR4kskFMw==
   dependencies:
     "@cosmjs/cosmwasm-stargate" "^0.28.11"
     "@cosmjs/proto-signing" "^0.28.11"
@@ -1311,6 +1329,8 @@ graz@^0.0.14:
     "@keplr-wallet/cosmos" "^0.10.13"
     "@keplr-wallet/types" "^0.10.13"
     "@tanstack/react-query" "^4.0.10"
+    arg "^5"
+    cosmos-directory-client "0.0.6"
     zustand "^4.0.0"
 
 has-flag@^3.0.0:
@@ -1610,6 +1630,11 @@ nice-try@^1.0.4:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/nice-try/-/nice-try-1.0.5.tgz#a3378a7696ce7d223e88fc9b764bd7ef1089e366"
   integrity sha512-1nh45deeb5olNY7eX82BkPO7SSxR5SSYJiPTrTdFUVYwAl8CKMA5N9PjTYkHiRjisVcxcQ1HXdLhx2qxxJzLNQ==
+
+node-fetch-native@latest:
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/node-fetch-native/-/node-fetch-native-0.1.4.tgz#09b06754f9e298bac23848050da2352125634f89"
+  integrity sha512-10EKpOCQPXwZVFh3U1ptOMWBgKTbsN7Vvo6WVKt5pw4hp8zbv6ZVBZPlXw+5M6Tyi1oc1iD4/sNPd71KYA16tQ==
 
 node-releases@^2.0.5:
   version "2.0.6"
