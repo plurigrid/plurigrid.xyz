@@ -5,11 +5,13 @@ import HatchersBegin from "./HatchersBegin";
 import Landing from "./Landing";
 import Matrix from "./Matrix";
 import Simulation from "./Simulation";
-import { GrazProvider, configureDefaultChain, mainnetChains } from "graz";
+import { GrazProvider, mainnetChains, configureGraz } from "graz";
 import Level from "./Level";
 
 const url = "https://rpc.constantine-1.archway.tech/"
-configureDefaultChain({...mainnetChains.juno, rpc: url, rest: url });
+configureGraz({
+  defaultChain: { ...mainnetChains.juno, rpc: url, rest: url },
+})
 
 function App() {
   return (
